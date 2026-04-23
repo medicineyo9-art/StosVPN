@@ -24,7 +24,7 @@ jobs:
                   xcodebuild archive \
                     -project StosVPN.xcodeproj \
                     -scheme StosVPN \
-                    -destination 'generic/platform=iOS' \
+                    -destination 'generic/platform=iOS,variant=iphoneos' \
                     -archivePath build/StosVPN.xcarchive \
                     CODE_SIGN_IDENTITY="" \
                     CODE_SIGNING_REQUIRED=NO \
